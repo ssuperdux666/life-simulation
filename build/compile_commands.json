@@ -1,0 +1,38 @@
+[
+{
+  "directory": "D:/lifeSimulation/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -ID:/lifeSimulation/raylib/include -g -std=gnu++17 -o CMakeFiles\\lifeSim.dir\\main.cpp.obj -c D:\\lifeSimulation\\main.cpp",
+  "file": "D:/lifeSimulation/main.cpp",
+  "output": "D:/lifeSimulation/build/CMakeFiles/lifeSim.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/lifeSimulation/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -ID:/lifeSimulation/raylib/include -g -std=gnu++17 -o CMakeFiles\\lifeSim.dir\\src\\camera.cpp.obj -c D:\\lifeSimulation\\src\\camera.cpp",
+  "file": "D:/lifeSimulation/src/camera.cpp",
+  "output": "D:/lifeSimulation/build/CMakeFiles/lifeSim.dir/src/camera.cpp.obj"
+},
+{
+  "directory": "D:/lifeSimulation/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -ID:/lifeSimulation/raylib/include -g -std=gnu++17 -o CMakeFiles\\lifeSim.dir\\src\\creature.cpp.obj -c D:\\lifeSimulation\\src\\creature.cpp",
+  "file": "D:/lifeSimulation/src/creature.cpp",
+  "output": "D:/lifeSimulation/build/CMakeFiles/lifeSim.dir/src/creature.cpp.obj"
+},
+{
+  "directory": "D:/lifeSimulation/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -ID:/lifeSimulation/raylib/include -g -std=gnu++17 -o CMakeFiles\\lifeSim.dir\\src\\Network.cpp.obj -c D:\\lifeSimulation\\src\\Network.cpp",
+  "file": "D:/lifeSimulation/src/Network.cpp",
+  "output": "D:/lifeSimulation/build/CMakeFiles/lifeSim.dir/src/Network.cpp.obj"
+},
+{
+  "directory": "D:/lifeSimulation/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -ID:/lifeSimulation/raylib/include -g -std=gnu++17 -o CMakeFiles\\lifeSim.dir\\src\\food.cpp.obj -c D:\\lifeSimulation\\src\\food.cpp",
+  "file": "D:/lifeSimulation/src/food.cpp",
+  "output": "D:/lifeSimulation/build/CMakeFiles/lifeSim.dir/src/food.cpp.obj"
+},
+{
+  "directory": "D:/lifeSimulation/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -ID:/lifeSimulation/raylib/include -g -std=gnu++17 -o CMakeFiles\\lifeSim.dir\\src\\game.cpp.obj -c D:\\lifeSimulation\\src\\game.cpp",
+  "file": "D:/lifeSimulation/src/game.cpp",
+  "output": "D:/lifeSimulation/build/CMakeFiles/lifeSim.dir/src/game.cpp.obj"
+}
+]

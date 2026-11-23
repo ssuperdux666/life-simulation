@@ -1,0 +1,3 @@
+D:/lifeSimulation/build/CMakeFiles/lifeSim.dir
+D:/lifeSimulation/build/CMakeFiles/edit_cache.dir
+D:/lifeSimulation/build/CMakeFiles/rebuild_cache.dir
