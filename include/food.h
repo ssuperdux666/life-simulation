@@ -10,5 +10,5 @@ class Food {
 
         Food();
 
-        void Draw(int camX, int camY);
+        void Draw(int camX, int camY, float zoom);
 };

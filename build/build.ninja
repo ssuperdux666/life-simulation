@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_lifeSim: phony || .
 build CMakeFiles/lifeSim.dir/main.cpp.obj: CXX_COMPILER__lifeSim_unscanned_Debug D$:/lifeSimulation/main.cpp || cmake_object_order_depends_target_lifeSim
   CONFIG = Debug
   DEP_FILE = CMakeFiles\lifeSim.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++17
+  FLAGS = -g -std=gnu++17 -g -O0
   INCLUDES = -ID:/lifeSimulation/raylib/include
   OBJECT_DIR = CMakeFiles\lifeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\lifeSim.dir
@@ -61,7 +61,7 @@ build CMakeFiles/lifeSim.dir/main.cpp.obj: CXX_COMPILER__lifeSim_unscanned_Debug
 build CMakeFiles/lifeSim.dir/src/camera.cpp.obj: CXX_COMPILER__lifeSim_unscanned_Debug D$:/lifeSimulation/src/camera.cpp || cmake_object_order_depends_target_lifeSim
   CONFIG = Debug
   DEP_FILE = CMakeFiles\lifeSim.dir\src\camera.cpp.obj.d
-  FLAGS = -g -std=gnu++17
+  FLAGS = -g -std=gnu++17 -g -O0
   INCLUDES = -ID:/lifeSimulation/raylib/include
   OBJECT_DIR = CMakeFiles\lifeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\lifeSim.dir\src
@@ -70,7 +70,7 @@ build CMakeFiles/lifeSim.dir/src/camera.cpp.obj: CXX_COMPILER__lifeSim_unscanned
 build CMakeFiles/lifeSim.dir/src/creature.cpp.obj: CXX_COMPILER__lifeSim_unscanned_Debug D$:/lifeSimulation/src/creature.cpp || cmake_object_order_depends_target_lifeSim
   CONFIG = Debug
   DEP_FILE = CMakeFiles\lifeSim.dir\src\creature.cpp.obj.d
-  FLAGS = -g -std=gnu++17
+  FLAGS = -g -std=gnu++17 -g -O0
   INCLUDES = -ID:/lifeSimulation/raylib/include
   OBJECT_DIR = CMakeFiles\lifeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\lifeSim.dir\src
@@ -79,7 +79,7 @@ build CMakeFiles/lifeSim.dir/src/creature.cpp.obj: CXX_COMPILER__lifeSim_unscann
 build CMakeFiles/lifeSim.dir/src/Network.cpp.obj: CXX_COMPILER__lifeSim_unscanned_Debug D$:/lifeSimulation/src/Network.cpp || cmake_object_order_depends_target_lifeSim
   CONFIG = Debug
   DEP_FILE = CMakeFiles\lifeSim.dir\src\Network.cpp.obj.d
-  FLAGS = -g -std=gnu++17
+  FLAGS = -g -std=gnu++17 -g -O0
   INCLUDES = -ID:/lifeSimulation/raylib/include
   OBJECT_DIR = CMakeFiles\lifeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\lifeSim.dir\src
@@ -88,7 +88,16 @@ build CMakeFiles/lifeSim.dir/src/Network.cpp.obj: CXX_COMPILER__lifeSim_unscanne
 build CMakeFiles/lifeSim.dir/src/food.cpp.obj: CXX_COMPILER__lifeSim_unscanned_Debug D$:/lifeSimulation/src/food.cpp || cmake_object_order_depends_target_lifeSim
   CONFIG = Debug
   DEP_FILE = CMakeFiles\lifeSim.dir\src\food.cpp.obj.d
-  FLAGS = -g -std=gnu++17
+  FLAGS = -g -std=gnu++17 -g -O0
+  INCLUDES = -ID:/lifeSimulation/raylib/include
+  OBJECT_DIR = CMakeFiles\lifeSim.dir
+  OBJECT_FILE_DIR = CMakeFiles\lifeSim.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\lifeSim.dir
+
+build CMakeFiles/lifeSim.dir/src/foodRegion.cpp.obj: CXX_COMPILER__lifeSim_unscanned_Debug D$:/lifeSimulation/src/foodRegion.cpp || cmake_object_order_depends_target_lifeSim
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\lifeSim.dir\src\foodRegion.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -g -O0
   INCLUDES = -ID:/lifeSimulation/raylib/include
   OBJECT_DIR = CMakeFiles\lifeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\lifeSim.dir\src
@@ -97,7 +106,7 @@ build CMakeFiles/lifeSim.dir/src/food.cpp.obj: CXX_COMPILER__lifeSim_unscanned_D
 build CMakeFiles/lifeSim.dir/src/game.cpp.obj: CXX_COMPILER__lifeSim_unscanned_Debug D$:/lifeSimulation/src/game.cpp || cmake_object_order_depends_target_lifeSim
   CONFIG = Debug
   DEP_FILE = CMakeFiles\lifeSim.dir\src\game.cpp.obj.d
-  FLAGS = -g -std=gnu++17
+  FLAGS = -g -std=gnu++17 -g -O0
   INCLUDES = -ID:/lifeSimulation/raylib/include
   OBJECT_DIR = CMakeFiles\lifeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\lifeSim.dir\src
@@ -111,7 +120,7 @@ build CMakeFiles/lifeSim.dir/src/game.cpp.obj: CXX_COMPILER__lifeSim_unscanned_D
 #############################################
 # Link the executable lifeSim.exe
 
-build lifeSim.exe: CXX_EXECUTABLE_LINKER__lifeSim_Debug CMakeFiles/lifeSim.dir/main.cpp.obj CMakeFiles/lifeSim.dir/src/camera.cpp.obj CMakeFiles/lifeSim.dir/src/creature.cpp.obj CMakeFiles/lifeSim.dir/src/Network.cpp.obj CMakeFiles/lifeSim.dir/src/food.cpp.obj CMakeFiles/lifeSim.dir/src/game.cpp.obj
+build lifeSim.exe: CXX_EXECUTABLE_LINKER__lifeSim_Debug CMakeFiles/lifeSim.dir/main.cpp.obj CMakeFiles/lifeSim.dir/src/camera.cpp.obj CMakeFiles/lifeSim.dir/src/creature.cpp.obj CMakeFiles/lifeSim.dir/src/Network.cpp.obj CMakeFiles/lifeSim.dir/src/food.cpp.obj CMakeFiles/lifeSim.dir/src/foodRegion.cpp.obj CMakeFiles/lifeSim.dir/src/game.cpp.obj
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = -lraylib  -lopengl32  -lgdi32  -lwinmm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

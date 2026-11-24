@@ -37,15 +37,21 @@ class NeuralNetwork {
 
         void Fill_Inputs(Game& game, Creature& creature);
 
-        void Clear_Nodes();
+        void Change_Random_Weight();
 
-        float Get_Node_Value(int id);
+        void Enabdisab_Random_Connection();
 
         void Create_Random_Connecttion();
 
+        void Add_Hidden_Node();
+
         void Rebuild_Execution_Order();
 
+        void Mutate(); //gulp🥶
+
         void Forward_Pass(Game& game, Creature& creature);
+
+        
 
     private:
         std::vector<Node> nodesInput;
